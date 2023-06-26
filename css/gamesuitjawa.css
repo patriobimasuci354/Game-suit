@@ -302,6 +302,8 @@ body {
 		font-size: 0.95rem;
 	} 
 }
+@media screen and ( max-width : 437px ) { .congratulations a { left: 33%; } }
+@media screen and ( max-width : 472px ) { .congratulations a { left: 34%; } }
 @media screen and ( max-width : 325px ) { .result { left: 1.2%; } }
 @media screen and ( max-width : 697px ) { .congratulations h1 { font-size: 3.2rem; } }
 @media screen and ( max-width : 564px ) { 
@@ -320,12 +322,14 @@ body {
 	.congratulations a { left: 38%; }
 }
 @media screen and ( max-width : 416px ) { .congratulations a { left: 32%; } }
+@media screen and ( max-width : 430px ) { .congratulations a { left: 32%; } }
 @media screen and ( max-width : 337px ) { 
 	.congratulations h1 {  
 		top: 1.1em;
 	}
 	.congratulations a { left: 26%; }
 }
+
 
 
 
