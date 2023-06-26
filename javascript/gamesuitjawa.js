@@ -32,7 +32,7 @@ function repeat() {
 			clearInterval();
 			return;
 		}
-		computerimg.src = image[i] + '.jpg';
+		computerimg.src = 'img/' + image[i] + '.jpg';
 		i++
 		if ( i === 3 ) i = 0
 	}, 100)
@@ -50,7 +50,7 @@ img.forEach(function(e) {
 		computerimg.style.width = '100%'
 		repeat()
 		setTimeout(function() {
-			computerimg.src = comp + '.jpg';
+			computerimg.src = 'img/' + comp + '.jpg';
 			contentresult.style.transform = 'scale(1)';
 			contentresult.innerHTML = result;
 			if ( result === 'MENANG !!!' ) {
